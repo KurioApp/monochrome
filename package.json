@@ -1,0 +1,18 @@
+{
+  "name": "monochrome",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Ainun Nazieb <ainun@nazieb.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.7",
+    "typescript": "^2.6.2"
+  }
+}
