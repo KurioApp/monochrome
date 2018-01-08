@@ -9,7 +9,7 @@ When utilizing Puppeteer, it's not advisable to keep launching and closing Chrom
 ## Installation
 
 ```bash
-$ npm install monochrome
+$ npm install monochrome-js
 ```
 
 ## Usage
