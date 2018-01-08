@@ -14,7 +14,7 @@ $ npm install monochrome
 
 ## Usage
 ```js
-const Monochrome = require("monochrome");
+const Monochrome = require("monochrome-js");
 const monochrome = new Monochrome();
 
 // get a browser instance
