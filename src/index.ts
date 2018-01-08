@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-export default class MonoChrome {
+class MonoChrome {
     protected browser: any;
 
     protected debug: boolean = false;
@@ -16,7 +16,7 @@ export default class MonoChrome {
             ignoreHTTPSErrors: true,
         };
 
-        if (!this.browser) {
+        if (this.browser) {
             opt.browserWSEndpoint = this.browser.wsEndpoint();
 
             try {
@@ -76,3 +76,5 @@ async function safelyCloseBrowser(browser: any): Promise<any> {
 
     return browser.close();
 }
+
+module.exports = MonoChrome;
