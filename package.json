@@ -4,9 +4,11 @@
   "description": "",
   "author": "Ainun Nazieb <ainun@nazieb.com>",
   "license": "ISC",
+  "homepage": "https://github.com/KurioApp/monochrome",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "puppeteer": "^0.13.0"
