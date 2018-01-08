@@ -3,10 +3,12 @@ const puppeteer = require("puppeteer");
 export default class MonoChrome {
     protected browser: any;
 
-    protected debug: boolean;
+    protected debug: boolean = false;
 
-    constructor(debug: boolean) {
-        this.debug = debug;
+    constructor(debug?: boolean) {
+        if (debug) {
+            this.debug = debug;
+        }
     }
 
     public async getBrowser(): Promise<any> {
