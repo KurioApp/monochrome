@@ -42,7 +42,7 @@ class MonoChrome {
     }
 
     protected async launchBrowser(): Promise<any> {
-        const args = ["--single-process", "--process-per-site"];
+        const args = ["--single-process", "--process-per-site", "--no-sandbox"];
         const opt = {
             headless: !this.debug,
             devtools: this.debug,
