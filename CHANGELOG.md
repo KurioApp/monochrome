@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.2.7](https://github.com/KurioApp/monochrome/compare/v0.2.6...v0.2.7) (2020-11-06)
+
+
+### Features
+
+* add --no-sandbox argument in puppeteer configuration ([9b9c610](https://github.com/KurioApp/monochrome/commit/9b9c610a59d7d6f4ac812524600a5675712ef964))
 
 <a name="0.2.6"></a>
 ## [0.2.6](https://github.com/KurioApp/monochrome/compare/v0.2.5...v0.2.6) (2018-01-23)

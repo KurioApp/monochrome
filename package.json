@@ -1,6 +1,6 @@
 {
   "name": "monochrome-js",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "",
   "author": "Ainun Nazieb <ainun@nazieb.com>",
   "license": "ISC",
@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@types/node": "^8.5.7",
-    "typescript": "^2.6.2"
+    "typescript": "^3.5.1"
   }
 }
